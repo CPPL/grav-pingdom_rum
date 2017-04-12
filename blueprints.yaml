@@ -1,0 +1,34 @@
+name: Pingdom Real User Monitoring Analytics
+version: 0.1.0
+description: "Pingdom RUM plugin lets you easily add the Pingdom Real User Monitoring to your GRAV website."
+icon: bar-chart
+author:
+  name: Craig Phillips
+  email: support@craigphillips.biz
+  url: http://craigphillips.biz
+homepage: https://github.com/cppl/grav-pingdom_rum
+keywords: pingdom, plugin, rum, tracking, analytics
+bugs: https://github.com/cppl/grav-pingdom_rum/issues
+docs: https://github.com/cppl/grav-pingdom_rum/blob/master/README.md
+license: MIT
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin Status
+      highlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
+
+    prumid:
+      type: text
+      size: medium
+      label: Pingdom RUM Id
+      placeholder: 'abcdef0123456789abcdef01'
+      help: Pingdom RUM Id. ( The PRUM Id is usually 24 characters long, and can contain characters 'a-f' and '0-9' )  Please note each website in your Pingdom account will have it's own PRUM Id.

@@ -1,3 +1,9 @@
+# v0.1.2
+## 17-06-2017
+
+1. [](#improvement)
+  * Fix date format in changelog
+
 # v0.1.1
 ## 12-03-2017
 

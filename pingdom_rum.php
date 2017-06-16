@@ -24,7 +24,7 @@ class Pingdom_RUMPlugin extends Plugin
         $prumid = trim($this->config->get('plugins.pingdom_rum.prumid'));
         if ($prumid) {
             $gsjs = <<<PingdomRUMJS
-var _prum = [['id', '5519be67abe53d310131abbc'],
+var _prum = [['id', '$prumid'],
             ['mark', 'firstbyte', (new Date()).getTime()]];
         (function() {
             var s = document.getElementsByTagName('script')[0]

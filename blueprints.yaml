@@ -1,5 +1,5 @@
 name: Pingdom Real User Monitoring Analytics
-version: 0.1.0
+version: 0.1.1
 description: "Pingdom RUM plugin lets you easily add the Pingdom Real User Monitoring to your GRAV website."
 icon: bar-chart
 author:

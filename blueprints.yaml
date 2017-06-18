@@ -32,3 +32,15 @@ form:
       label: Pingdom RUM Id
       placeholder: 'abcdef0123456789abcdef01'
       help: Pingdom RUM Id. ( The PRUM Id is usually 24 characters long, and can contain characters 'a-f' and '0-9' )  Please note each website in your Pingdom account will have it's own PRUM Id.
+
+    autotags:
+      type: toggle
+      label: Include Page Tags
+      help: Tags defined in a pages front-matter will be included in the PRUM script. Please note this feature requires a Pingdom "Professional" or "Enterprise" account.
+      highlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool

@@ -1,0 +1,12 @@
+en:
+  PLUGIN_PINGDOM_RUM:
+    PRUMID: 'Pingdom RUM Id'
+    PRUMID_HELP: 'Pingdom RUM Id. ( The PRUM Id is usually 24 characters long, and can contain characters ''a-f'' and ''0-9'' )  Please note each website in your Pingdom account will have it''s own PRUM Id.'
+    AUTOTAGS: 'Include Page Tags'
+    AUTOTAGS_HELP: 'Tags defined in a pages front-matter will be included in the PRUM script. Please note this feature requires a Pingdom "Professional" or "Enterprise" account.'
+fr:
+  PLUGIN_PINGDOM_RUM:
+    PRUMID: 'Pingdom RUM Id'
+    PRUMID_HELP: 'Pingdom RUM Id. (L''ID PRUM a habituellement 24 caractères et peut contenir des caractères ''a-f'' et ''0-9'') Veuillez noter que chaque site Web dans votre compte Pingdom aura son propre ID PRUM.'
+    AUTOTAGS: 'Inclure les tags de la page'
+    AUTOTAGS_HELP: 'Les balises définies dans une page avant seront incluses dans le script PRUM. Veuillez noter que cette fonctionnalité nécessite un compte Pingdom "Professionnel" ou "Entreprise".'

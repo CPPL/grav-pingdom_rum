@@ -44,6 +44,8 @@ If you need to change any value, I recommend using the Admin screens available v
 
 ## Usage
 
+### General
+
 1. Follow the Pingdom's article on [How to set up Real User Monitoring (RUM)](https://help.pingdom.com/hc/en-us/articles/203611002-How-to-set-up-Real-User-Monitoring-RUM-)
 2. When presented with the code snippet, you will see line of code similar to  
 ```
@@ -52,3 +54,13 @@ var _prum = [['id', 'abcdef0123456789abcdef01'],
  (you want the **Id** value, i.e. the bit after `'id'`)
 3. Copy the *RUM Id* (without the single quotes) and paste it into the field in the plugin settings (I recommend **copying and pasting** not typing...)
 4. Click Save
+
+### Tags
+
+Pingdom's RUM feature supports "tags" - from version 0.2.0 this plugin supports including page tags in the Pingdom RUM script.
+
+To enable it simply set the "Include Page Tags" setting to "Enabled".
+
+To add tags to a page use either:
+ - the Options tab of the Page Editor in the Grav Admin screen or
+ - manually [add the tags to the frontmatter of the markdown page](https://learn.getgrav.org/content/headers#taxonomy).

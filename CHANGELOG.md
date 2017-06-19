@@ -1,23 +1,29 @@
+# v0.2.1
+## 19-06-2017
+
+1. [](#improved)
+    * Update README.md with basic details of Tag feature
+
 # v0.2.0
 ## 18-06-2017
 
 1. [](#new)
-  * Added support for page tags in RUM reporting
+    * Added support for page tags in RUM reporting
 
 # v0.1.2
 ## 17-06-2017
 
 1. [](#improved)
-  * Fix date format in changelog
+    * Fix date format in changelog
 
 # v0.1.1
 ## 12-03-2017
 
 1. [](#bugfix)
-  * Use PRUM ID from configuration not hardcoded ID
+    * Use PRUM ID from configuration not hardcoded ID
 
 # v0.1.0
 ## 12-03-2017
 
 1. [](#new)
-  * Initial version
+    * Initial version
